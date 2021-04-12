@@ -1,7 +1,7 @@
 <template>
   <div class="paragraph-quote">
     <blockquote>
-      <slot name="text" />
+      <slot />
     </blockquote>
     <div class="author">
       {{ author }}
@@ -15,8 +15,7 @@
     color: dimgrey;
   }
   .author {
-    margin-right: 3em;
-    text-align: right;
+    margin-left: 3em;
     font-size: smaller;
   }
 </style>
@@ -24,10 +23,7 @@
 <script>
 export default {
   props: {
-    author: {
-      type: String,
-      default: ''
-    }
+    author: String
   }
 }
 </script>

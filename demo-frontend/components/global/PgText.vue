@@ -1,15 +1,9 @@
 <template>
   <div class="paragraph-text">
-    <h2>{{ title }}</h2>
-    <slot name="text" />
+    <h3>{{ title }}</h3>
+    <slot />
   </div>
 </template>
-
-<style lang="css" scoped>
-  .paragraph-text {
-    margin: 1em;
-  }
-</style>
 
 <script>
 export default {
@@ -20,3 +14,9 @@ export default {
   }
 }
 </script>
+
+<style lang="css" scoped>
+.paragraph-text {
+  margin: 1em;
+}
+</style>

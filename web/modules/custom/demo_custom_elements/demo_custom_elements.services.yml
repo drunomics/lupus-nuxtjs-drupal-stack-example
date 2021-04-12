@@ -1,0 +1,18 @@
+services:
+  demo_custom_elements.paragraph_image:
+    class: Drupal\demo_custom_elements\Processor\ParagraphImageProcessor
+    tags:
+      - { name: custom_elements_processor, priority: -50 }
+  demo_custom_elements.paragraph_quote:
+    class: Drupal\demo_custom_elements\Processor\ParagraphQuoteProcessor
+    tags:
+      - { name: custom_elements_processor, priority: -50 }
+  demo_custom_elements.paragraph_text:
+    class: Drupal\demo_custom_elements\Processor\ParagraphTextProcessor
+    tags:
+      - { name: custom_elements_processor, priority: -50 }
+  demo_custom_elements.node_article:
+    class: Drupal\demo_custom_elements\Processor\NodeArticleProcessor
+    parent: custom_elements.processor.default_content_entity
+    tags:
+      - { name: custom_elements_processor, priority: 50 }
