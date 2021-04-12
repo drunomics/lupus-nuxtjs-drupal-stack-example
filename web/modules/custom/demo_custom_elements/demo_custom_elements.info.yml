@@ -1,0 +1,5 @@
+name: demo custom elements processor
+type: module
+core_version_requirement: ^8.8 || ^9
+dependencies:
+  - custom_elements:custom_elements

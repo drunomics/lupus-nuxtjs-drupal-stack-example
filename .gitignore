@@ -1,1 +1,3 @@
 /vendor
+/web/modules/contrib
+node_modules

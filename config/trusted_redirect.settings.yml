@@ -1,0 +1,4 @@
+trusted_hosts:
+  - lupus-nuxtjs-drupal-stack-example.ddev.site
+_core:
+  default_config_hash: CWZZ4dMK7ahB3Gc8ysM9rJiFoxhVkelcsieREU3GNkU
