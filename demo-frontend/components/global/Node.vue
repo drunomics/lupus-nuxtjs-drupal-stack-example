@@ -1,7 +1,7 @@
 <template>
   <div class="node">
     <h2>{{ title }}</h2>
-    <slot name="default" />
+    <slot name="paragraphs" />
   </div>
 </template>
 
