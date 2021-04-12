@@ -22,6 +22,7 @@
         "drupal/core-recommended": "^9.1",
         "drupal/lupus_ce_renderer": "^1.0@beta",
         "drupal/paragraphs": "^1.12",
+        "drupal/pathauto": "^1.8",
         "drush/drush": "^10.4"
     },
     "conflict": {
