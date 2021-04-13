@@ -1,11 +1,11 @@
 uuid: 99fa707d-564d-41cf-9d43-851a4f762ab9
-name: 'Drush Site-Install'
+name: 'Lupus Nuxt.js Drupal Stack'
 mail: admin@example.com
 slogan: ''
 page:
-  403: ''
-  404: ''
-  front: /node
+  403: /node/4
+  404: /node/3
+  front: /node/2
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en
