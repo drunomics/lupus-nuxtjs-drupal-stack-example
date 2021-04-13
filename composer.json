@@ -23,6 +23,7 @@
         "drupal/lupus_ce_renderer": "^1.0@beta",
         "drupal/paragraphs": "^1.12",
         "drupal/pathauto": "^1.8",
+        "drupal/rest_menu_items": "^3.0",
         "drupal/trusted_redirect": "^1.7",
         "drush/drush": "^10.4"
     },

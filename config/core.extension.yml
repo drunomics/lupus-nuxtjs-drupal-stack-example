@@ -40,7 +40,10 @@ module:
   path_alias: 0
   quickedit: 0
   rdf: 0
+  rest: 0
+  rest_menu_items: 0
   search: 0
+  serialization: 0
   shortcut: 0
   system: 0
   taxonomy: 0

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9c8f42241798f71c96420b98cc199774",
+    "content-hash": "a7e0f623f973316d849b9f323c5ea34f",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2280,6 +2280,61 @@
                 "source": "https://cgit.drupalcode.org/pathauto",
                 "issues": "https://www.drupal.org/project/issues/pathauto",
                 "documentation": "https://www.drupal.org/docs/8/modules/pathauto"
+            }
+        },
+        {
+            "name": "drupal/rest_menu_items",
+            "version": "3.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/rest_menu_items.git",
+                "reference": "3.0.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/rest_menu_items-3.0.2.zip",
+                "reference": "3.0.2",
+                "shasum": "15dd4782ffcb0994da7b5743dec62a1060943c73"
+            },
+            "require": {
+                "drupal/core": "^8.8.4 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "3.0.2",
+                    "datestamp": "1592220514",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Fabian de Rijk (fabianderijk)",
+                    "homepage": "https://www.drupal.org/u/fabianderijk",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "immoreel",
+                    "homepage": "https://www.drupal.org/user/1695422"
+                },
+                {
+                    "name": "tomvv",
+                    "homepage": "https://www.drupal.org/user/2748021"
+                }
+            ],
+            "description": "This module provides a REST endpoint to retrieve menu items based on the menu name.",
+            "homepage": "https://drupal.org/project/rest_menu_items",
+            "support": {
+                "source": "https://cgit.drupalcode.org/rest_menu_items",
+                "issues": "https://drupal.org/project/issues/rest_menu_items",
+                "irc": "irc://irc.freenode.org/drupal-contribute"
             }
         },
         {

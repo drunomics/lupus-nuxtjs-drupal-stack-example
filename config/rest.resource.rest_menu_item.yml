@@ -1,0 +1,20 @@
+uuid: 724dfe0f-614e-4c1b-902c-5bb2e72f029a
+langcode: en
+status: true
+dependencies:
+  module:
+    - rest_menu_items
+    - serialization
+    - user
+_core:
+  default_config_hash: FXerWOAAL7X0bduLpVqO0GNaFkmxjtX0Ah0nk567-aw
+id: rest_menu_item
+plugin_id: rest_menu_item
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - json
+  authentication:
+    - cookie
