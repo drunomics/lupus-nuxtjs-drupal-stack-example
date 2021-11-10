@@ -51,7 +51,7 @@
     "minimist": "^1.2.2",
     "mkdirp": "^1.0.4",
     "nightwatch": "^1.2.1",
-    "postcss": "^7.0.18",
+    "postcss": "^7.0.36",
     "postcss-calc": "^7.0.1",
     "postcss-header": "^2.0.0",
     "postcss-import": "^12.0.1",
