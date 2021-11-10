@@ -34,7 +34,6 @@ export default {
   // drupal-ce config: https://github.com/drunomics/nuxt-module-drupal-ce
   'nuxtjs-drupal-ce': {
     baseURL: process.env.DRUPAL_BASE_URL || 'http://lupus-nuxtjs-drupal-stack-example.ddev.site',
-    menuEndpoint: 'api/menu_items/$$$NAME$$$',
     // For authenticated requests via domain lupus-nuxtjs-drupal-stack-example.ddev.site
     useProxy: false,
     axios: {
