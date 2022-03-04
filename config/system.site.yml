@@ -3,9 +3,7 @@ name: 'Lupus Nuxt.js Drupal Stack'
 mail: admin@example.com
 slogan: ''
 page:
-  403: /node/4
-  404: /node/3
-  front: /node/2
+  front: /admin/content
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en
