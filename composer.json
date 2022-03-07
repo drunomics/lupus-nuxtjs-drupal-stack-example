@@ -15,17 +15,17 @@
         }
     ],
     "require": {
-        "composer/installers": "^1.9",
-        "drupal/admin_toolbar": "^3.0",
-        "drupal/core-composer-scaffold": "^9.1",
-        "drupal/core-project-message": "^9.1",
-        "drupal/core-recommended": "^9.1",
-        "drupal/lupus_ce_renderer": "^1.0@beta",
-        "drupal/paragraphs": "^1.12",
-        "drupal/pathauto": "^1.8",
+        "composer/installers": "^1.12",
+        "drupal/admin_toolbar": "^3.1",
+        "drupal/core-composer-scaffold": "^9.3",
+        "drupal/core-project-message": "^9.3",
+        "drupal/core-recommended": "^9.3",
+        "drupal/lupus_ce_renderer": "^2.0@beta",
+        "drupal/paragraphs": "^1.13",
+        "drupal/pathauto": "^1.9",
         "drupal/rest_menu_items": "^3.0",
-        "drupal/trusted_redirect": "^1.7",
-        "drush/drush": "^10.4"
+        "drupal/trusted_redirect": "^1.9",
+        "drush/drush": "^10.6"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -33,7 +33,12 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "composer/installers": true,
+            "drupal/core-composer-scaffold": true,
+            "drupal/core-project-message": true
+        }
     },
     "extra": {
         "drupal-scaffold": {
