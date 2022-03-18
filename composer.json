@@ -20,7 +20,7 @@
         "drupal/core-composer-scaffold": "^9.3",
         "drupal/core-project-message": "^9.3",
         "drupal/core-recommended": "^9.3",
-        "drupal/lupus_ce_renderer": "^2.0@beta",
+        "drupal/lupus_ce_renderer": "^2.0",
         "drupal/paragraphs": "^1.13",
         "drupal/pathauto": "^1.9",
         "drupal/rest_menu_items": "^3.0",
