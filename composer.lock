@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bc80c678a6a6c0e690137992008abb92",
+    "content-hash": "d394615c2fc8111f484da8f1812d4e44",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1238,16 +1238,16 @@
         },
         {
             "name": "drunomics/service-utils",
-            "version": "9.3.0",
+            "version": "9.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drunomics/service-utils.git",
-                "reference": "229006998dae6dbac8a485c90c5cacfd678367c3"
+                "reference": "670f13e73e9f5974908b68a41338764421aeb8a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drunomics/service-utils/zipball/229006998dae6dbac8a485c90c5cacfd678367c3",
-                "reference": "229006998dae6dbac8a485c90c5cacfd678367c3",
+                "url": "https://api.github.com/repos/drunomics/service-utils/zipball/670f13e73e9f5974908b68a41338764421aeb8a8",
+                "reference": "670f13e73e9f5974908b68a41338764421aeb8a8",
                 "shasum": ""
             },
             "require": {
@@ -1283,9 +1283,9 @@
             ],
             "support": {
                 "issues": "https://github.com/drunomics/service-utils/issues",
-                "source": "https://github.com/drunomics/service-utils/tree/9.3.0"
+                "source": "https://github.com/drunomics/service-utils/tree/9.3.1"
             },
-            "time": "2021-11-25T17:03:39+00:00"
+            "time": "2022-02-23T10:04:27+00:00"
         },
         {
             "name": "drupal/admin_toolbar",
@@ -1370,16 +1370,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "9.3.7",
+            "version": "9.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "a768174b00fa088027d460a80a13550e624b9bf8"
+                "reference": "e8e3b7e5b3353f7ebf24de9d39087df75bd66afe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/a768174b00fa088027d460a80a13550e624b9bf8",
-                "reference": "a768174b00fa088027d460a80a13550e624b9bf8",
+                "url": "https://api.github.com/repos/drupal/core/zipball/e8e3b7e5b3353f7ebf24de9d39087df75bd66afe",
+                "reference": "e8e3b7e5b3353f7ebf24de9d39087df75bd66afe",
                 "shasum": ""
             },
             "require": {
@@ -1621,13 +1621,13 @@
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
             "support": {
-                "source": "https://github.com/drupal/core/tree/9.3.7"
+                "source": "https://github.com/drupal/core/tree/9.3.8"
             },
-            "time": "2022-03-03T09:23:53+00:00"
+            "time": "2022-03-16T15:34:53+00:00"
         },
         {
             "name": "drupal/core-composer-scaffold",
-            "version": "9.3.7",
+            "version": "9.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-composer-scaffold.git",
@@ -1671,13 +1671,13 @@
                 "drupal"
             ],
             "support": {
-                "source": "https://github.com/drupal/core-composer-scaffold/tree/9.3.7"
+                "source": "https://github.com/drupal/core-composer-scaffold/tree/9.3.8"
             },
             "time": "2022-02-24T17:40:56+00:00"
         },
         {
             "name": "drupal/core-project-message",
-            "version": "9.3.7",
+            "version": "9.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-project-message.git",
@@ -1712,22 +1712,22 @@
                 "drupal"
             ],
             "support": {
-                "source": "https://github.com/drupal/core-project-message/tree/9.3.7"
+                "source": "https://github.com/drupal/core-project-message/tree/9.3.8"
             },
             "time": "2022-02-24T17:40:56+00:00"
         },
         {
             "name": "drupal/core-recommended",
-            "version": "9.3.7",
+            "version": "9.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-recommended.git",
-                "reference": "29f6f29672861a5719701a59aae26aafbb4c9495"
+                "reference": "98048032809157c723131ecc2394ff55421d5dc6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/29f6f29672861a5719701a59aae26aafbb4c9495",
-                "reference": "29f6f29672861a5719701a59aae26aafbb4c9495",
+                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/98048032809157c723131ecc2394ff55421d5dc6",
+                "reference": "98048032809157c723131ecc2394ff55421d5dc6",
                 "shasum": ""
             },
             "require": {
@@ -1736,7 +1736,7 @@
                 "doctrine/annotations": "1.13.2",
                 "doctrine/lexer": "1.2.1",
                 "doctrine/reflection": "1.2.2",
-                "drupal/core": "9.3.7",
+                "drupal/core": "9.3.8",
                 "egulias/email-validator": "3.1.2",
                 "guzzlehttp/guzzle": "6.5.5",
                 "guzzlehttp/promises": "1.5.1",
@@ -1798,9 +1798,9 @@
             ],
             "description": "Locked core dependencies; require this project INSTEAD OF drupal/core.",
             "support": {
-                "source": "https://github.com/drupal/core-recommended/tree/9.3.7"
+                "source": "https://github.com/drupal/core-recommended/tree/9.3.8"
             },
-            "time": "2022-03-03T09:23:53+00:00"
+            "time": "2022-03-16T15:34:53+00:00"
         },
         {
             "name": "drupal/ctools",
@@ -2022,17 +2022,17 @@
         },
         {
             "name": "drupal/lupus_ce_renderer",
-            "version": "2.0.0-beta11",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/lupus_ce_renderer.git",
-                "reference": "2.0.0-beta11"
+                "reference": "2.0.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/lupus_ce_renderer-2.0.0-beta11.zip",
-                "reference": "2.0.0-beta11",
-                "shasum": "a7e8e1cd99bc2c5935cc86cddf7052c27faa00c7"
+                "url": "https://ftp.drupal.org/files/projects/lupus_ce_renderer-2.0.0.zip",
+                "reference": "2.0.0",
+                "shasum": "42d5ca7b4b74d8bc372ab54b7e9172ac157b5a7e"
             },
             "require": {
                 "drunomics/service-utils": "*",
@@ -2043,11 +2043,11 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "2.0.0-beta11",
-                    "datestamp": "1644965503",
+                    "version": "2.0.0",
+                    "datestamp": "1647250171",
                     "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Beta releases are not covered by Drupal security advisories."
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
                     }
                 }
             },
@@ -7145,9 +7145,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "drupal/lupus_ce_renderer": 10
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
