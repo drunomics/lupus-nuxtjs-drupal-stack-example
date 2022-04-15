@@ -33,7 +33,7 @@ export default {
 
   // drupal-ce config: https://github.com/drunomics/nuxt-module-drupal-ce
   'nuxtjs-drupal-ce': {
-    baseURL: 'http://lupus-nuxtjs-drupal-stack-example.ddev.site',
+    baseURL: process.env.DRUPAL_BASE_URL || 'http://lupus-nuxtjs-drupal-stack-example.ddev.site',
     // For authenticated requests via domain lupus-nuxtjs-drupal-stack-example.ddev.site
     useProxy: false,
     axios: {
