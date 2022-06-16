@@ -25,6 +25,14 @@ And install it:
 ddev drush site-install minimal --existing-config
 ```
 
+Start containers:
+```
+ddev start
+```
+
+If you get an error about ports being taken already either stop the processes that use the ports or update ports for
+this project. You can find them in .ddev/config.yaml for BE and then add it for the BASE_URL in nuxt.config.js.
+
 You can log into your Drupal backend now and start editing content!
 
 ### Nuxt.js setup
